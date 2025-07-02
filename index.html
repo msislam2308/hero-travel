@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Hero Travel</title>
 </head>
+
 <body>
-    
+    <header class="header">
+        <nav class="menu-container">
+            <div class="hero-nav">
+                <img src="Images/Group 40071 (2).png" class="hero-img" style="width: 50px; height: 50px;">
+                <h3 class="h3-title"> Hero <span class="span-style">Travel</span></h3>
+            </div>
+            <!-- Desktop Menu -->
+            <ul class="header-ul">
+                <li><a href=""><span class="span-style">Home</span></a></li>
+                <li><a href="">Package</a></li>
+                <li><a href="">testimonial</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">☰ Menu</label>
+            <ul class="dropdown">
+                <li><a href=""><span class="span-style">Home</span></a></li>
+                <li><a href="">Package</a></li>
+                <li><a href="">testimonial</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="section1">
+            <h1 class="h1-title">Explore Your Travel</h1>
+            <p class="description">
+                Dolor sit amet consectetur. Nullam suspendisse vitae ultricies
+                dolor adipiscing. In et odio enim<br> ac quis sapien urna eu phasellus.
+            </p>
+            <div class="search-box">
+                <input type="text" placeholder="Where go">
+                <input type="date" placeholder="When">
+                <select class="select">
+                    <option>Select Type</option>
+                    <option>Adventure</option>
+                    <option>Relax</option>
+                    <option>Business</option>
+                </select>
+                <button class="search-btn">Find Now</button>
+            </div>
+        </section>
+    </header>
 </body>
+
 </html>
